@@ -27,8 +27,10 @@
 
 <style scoped lang="scss">
   .container-text {
-    max-width: 1140px;
     margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
   }
   .block-text {
     color: black;

@@ -21,12 +21,14 @@
 </template>
 <style scoped lang="scss">
   .container-line {
-    margin: 60px 0
+    margin: 60px 0;
+    width: 100vw;
+    display: flex;
   }
   .line {
     background: #e7d04a;
     height: 150px;
-    width: 100%;
+    width: 100vw;
   }
   .wrap {
     display: flex;
