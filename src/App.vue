@@ -25,9 +25,7 @@ export default{
   }
   .container {
     background: white;
-    display: flex;
-    flex-direction: column;
-    // margin: 0 auto;
+    margin: 0 auto;
     max-width: 1140px
   }
 

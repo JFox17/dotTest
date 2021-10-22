@@ -15,20 +15,24 @@
           <span class="dop-block" />
         </div>
       </div>
-      <div class="line" />
     </div>
+    <div class="line" />
   </div>
 </template>
 <style scoped lang="scss">
   .container-line {
-    margin: 60px 0;
-    width: 100vw;
-    display: flex;
+    margin: 0 auto;
+    padding: 60px 0 150px 0;
+  }
+  .into {
+    margin: 0 auto;
   }
   .line {
     background: #e7d04a;
     height: 150px;
     width: 100vw;
+    position: absolute;
+    left: 0;
   }
   .wrap {
     display: flex;
@@ -57,6 +61,7 @@
     bottom: -40px;
     width: 100%;
     left: -10px;
+    z-index: 1;
   }
 
 </style>
