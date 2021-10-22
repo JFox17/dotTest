@@ -27,7 +27,7 @@ export default{
     background: white;
     display: flex;
     flex-direction: column;
-    margin: 100px 0;
+    margin: 0 auto;
   }
 
 </style>

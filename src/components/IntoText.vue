@@ -26,14 +26,17 @@
 </script>
 
 <style scoped lang="scss">
+  .container-text {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
   .block-text {
     color: black;
     font-family: Arial, sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
-    max-width: 1140px;
-    margin: 0 auto;
+    padding: 50px 0;
   }
   .block-text > p {
     margin: 0
