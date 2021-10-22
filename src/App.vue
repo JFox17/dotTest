@@ -1,26 +1,33 @@
 <template>
 <div id="app">
-  <h3 class="text">{{text}}</h3>
-  <p>Текст</p>
-
+  <div class="container">
+    <IntoText />
+    <Into />
+    <IntoText />
+  </div>
 </div>
 </template>
 <script>
+import Into from './components/Into.vue'
+import IntoText from './components/IntoText.vue'
+
 export default{
   name: 'app',
-  data() {
-    return {
-      text: 'Welcome'
-    }
+  components: { 
+    Into,
+    IntoText
   }
 }
 </script>
-<style scoped lang="scss">
-  #app {
-    color:red;
+<style lang="scss">
+  body {
+    margin: 0;
   }
-  .text{
-    color: green;
+  .container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
   }
 
 </style>
